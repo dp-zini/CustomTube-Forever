@@ -143,7 +143,7 @@ waitForElement(elm).then(function(elm) {
 		})
 	}
 });
-/*var elm = "#bt-videos-dropdown-button";
+var elm = "#bt-videos-dropdown-button";
 waitForElement(elm).then(function(elm) {
 	if (canGo != false) {
 		$("#bt-videos-dropdown-button a").addEventListener('click', () => {
@@ -253,7 +253,7 @@ function setDDPage(page) {
 	if (page == maxSlides) {
 		$("#videos-dd-right").setAttribute("disabled","");
 	}
-}*/
+}
 function appbarPosition(pos) {
 	document.querySelector("#bt-appbar").setAttribute("position",pos);
 }

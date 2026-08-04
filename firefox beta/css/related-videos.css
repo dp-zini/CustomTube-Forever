@@ -1,60 +1,24 @@
 html[related-videos^="stargazer"] {
 --bt-related-bg: var(--bt-universal-white);
---bt-related-margin-top: 0px;
+--bt-related-margin-top: 40px;
 --bt-related-padding-top: 0;
---bt-related-padding: 7px; /* formerly 0 */
---bt-related-margin-bottom: 3px; /* formerly 10px */
---bt-related-margin-left: 0px; /* formerly 15px */
+--bt-related-padding: 0;
+--bt-related-margin-bottom: 10px;
+--bt-related-margin-left: 15px;
 --bt-related-inner-padding-bottom: 14px;
 --bt-related-overflow-y: scroll;
 --bt-related-overflow-x: clip;
 --bt-related-max-height: 438px;
 --bt-related-border: 1px solid var(--bt-gcp-ccc);
 --bt-related-overscroll-behavior: contain;
---bt-related-width: 312px;
+--bt-related-width: 320px;
 /* hover thing */
 --bt-related-video-outer-padding: 5px;
 --bt-related-video-outer-min-height: 64px;
 --bt-related-video-outer-margin: 0;
 --bt-related-video-outer-bg-hover: #d1e1fa;
 /* title */
---bt-related-title-font-size: 12px; /* formerly 1.0833em; */
---bt-related-title-margin: 0;
---bt-related-title-line-height: 1.2;
---bt-related-title-max-height: 2.4em;
---bt-related-title-text-color: var(--bt-blue);
---bt-related-title-font-weight: bold;
---bt-related-title-text-color-hover: var(--bt-blue);
---bt-related-title-text-decoration-hover: underline;
-/* meta */
---bt-related-meta-text-color: var(--bt-text-color-6);
---bt-related-meta-font-size: 11px; /* formerly .9166em */
---bt-related-meta-line-height: 15.4px; /* formerly 1.4em */
-/* channel name */
---bt-related-channel-name-margin-top: 2px;
-/* thumbs */
---bt-related-thumb-inner-width: 96px;
---bt-related-thumb-inner-height: 54px;
---bt-related-thumb-inner-radius: 0px;
---bt-related-thumb-inner-bg: var(--yt-spec-base-background);
---bt-related-thumb-inner-padding: 1px;
---bt-related-thumb-inner-border: 1px solid var(--bt-gcp-999);
---bt-related-thumb-margin-right: 10px;
-}
-html[related-videos^="aozora"] {
---bt-related-bg: var(--bt-universal-white);
---bt-related-margin-top: 0px;
---bt-related-padding-top: 0;
---bt-related-padding: 0px 0px 0px 15px;
---bt-related-margin-bottom: -2px; /* formerly 10px */
---bt-related-inner-padding-bottom: 14px;
-/* hover thing */
---bt-related-video-outer-padding: 5px;
---bt-related-video-outer-min-height: 64px;
---bt-related-video-outer-margin: 0;
---bt-related-video-outer-bg-hover: #d1e1fa;
-/* title */
---bt-related-title-font-size: 13px; /* formerly 1.0833em; */
+--bt-related-title-font-size: 1.0833em;
 --bt-related-title-margin: 0;
 --bt-related-title-line-height: 1.2;
 --bt-related-title-max-height: 2.4em;
@@ -64,8 +28,44 @@ html[related-videos^="aozora"] {
 --bt-related-title-text-decoration-hover: underline;
 /* meta */
 --bt-related-meta-text-color: var(--bt-text-color-6);
---bt-related-meta-font-size: 11px; /* formerly .9166em */
---bt-related-meta-line-height: 15.4px; /* formerly 1.4em */
+--bt-related-meta-font-size: .9166em;
+--bt-related-meta-line-height: 1.4em;
+/* channel name */
+--bt-related-channel-name-margin-top: 2px;
+/* thumbs */
+--bt-related-thumb-inner-width: 96px;
+--bt-related-thumb-inner-height: 54px;
+--bt-related-thumb-inner-radius: 3px;
+--bt-related-thumb-inner-bg: var(--yt-spec-base-background);
+--bt-related-thumb-inner-padding: 4px;
+--bt-related-thumb-inner-border: 1px solid #d3d3d3;
+--bt-related-thumb-margin-right: 12px;
+}
+html[related-videos^="aozora"] {
+--bt-related-bg: var(--bt-universal-white);
+--bt-related-margin-top: 0px;
+--bt-related-padding-top: 0;
+--bt-related-padding: 0px 0px 0px 15px;
+--bt-related-margin-bottom: 10px;
+--bt-related-inner-padding-bottom: 14px;
+/* hover thing */
+--bt-related-video-outer-padding: 5px;
+--bt-related-video-outer-min-height: 64px;
+--bt-related-video-outer-margin: 0;
+--bt-related-video-outer-bg-hover: #d1e1fa;
+/* title */
+--bt-related-title-font-size: 1.0833em;
+--bt-related-title-margin: 0;
+--bt-related-title-line-height: 1.2;
+--bt-related-title-max-height: 2.4em;
+--bt-related-title-text-color: var(--bt-blue);
+--bt-related-title-font-weight: normal;
+--bt-related-title-text-color-hover: var(--bt-blue);
+--bt-related-title-text-decoration-hover: underline;
+/* meta */
+--bt-related-meta-text-color: var(--bt-text-color-6);
+--bt-related-meta-font-size: .9166em;
+--bt-related-meta-line-height: 1.4em;
 /* channel name */
 --bt-related-channel-name-margin-top: 2px;
 /* thumbs */
@@ -81,7 +81,7 @@ html[related-videos="cosmicpanda-3"] {
 --bt-related-margin-top: 0px;
 --bt-related-padding-top: 0;
 --bt-related-padding: 0px 15px 0px 20px;
---bt-related-margin-bottom: -2px; /* formerly 10px */
+--bt-related-margin-bottom: 10px;
 --bt-related-inner-padding-bottom: 14px;
 /* hover thing */
 --bt-related-video-outer-padding: 5px;
@@ -102,8 +102,8 @@ html[related-videos="cosmicpanda-3"] {
 --bt-related-title-text-decoration-hover: underline;
 /* meta */
 --bt-related-meta-text-color: var(--bt-text-color-6);
---bt-related-meta-font-size: 11px; /* formerly .9166em */
---bt-related-meta-line-height: 15.4px; /* formerly 1.4em */
+--bt-related-meta-font-size: .9166em;
+--bt-related-meta-line-height: 1.4em;
 /* channel name */
 --bt-related-channel-name-margin-top: 2px;
 }
@@ -125,7 +125,6 @@ html[related-videos^="hitchhiker"] {
 --bt-related-title-line-height: 1.2;
 --bt-related-title-max-height: 2.4em;
 --bt-related-title-text-color: var(--bt-text-color-5);
---bt-related-title-font-weight: 500;
 --bt-related-title-text-color-hover: var(--bt-blue);
 /* meta */
 --bt-related-meta-text-color: var(--bt-text-color-3);
@@ -133,10 +132,6 @@ html[related-videos^="hitchhiker"] {
 --bt-related-meta-line-height: 1.3;
 /* channel name */
 --bt-related-channel-name-margin-top: 2px;
-}
-html[related-videos^="hitchhiker"][use-arial] {
-/* title */
---bt-related-title-font-weight: bold;
 }
 html[related-videos^="hitchhiker-2014"] {
 --bt-related-border-right: 1px solid var(--bt-section-border-color);
@@ -156,7 +151,7 @@ html[related-videos-size="smaller"] {
 html[related-videos-size="smaller"][related-videos^="aozora"],
 html[related-videos-size="smaller"][related-videos^="stargazer"] {
 --bt-related-title-font-size: .9166em;
---bt-related-title-font-size: 13px; /* formerly 1.0833em; */
+--bt-related-title-font-size: 1.0833em;
 --bt-related-channel-name-margin-top: 2px;
 /* thumbs */
 --bt-related-thumb-width: 106px;
@@ -164,9 +159,6 @@ html[related-videos-size="smaller"][related-videos^="stargazer"] {
 --bt-related-thumb-inner-width: 106px;
 --bt-related-thumb-inner-height: 56px;
 --bt-related-thumb-margin-right: 16px;
-}
-html[related-videos-size="smaller"][related-videos^="stargazer"] {
---bt-related-title-font-size: 12px; /* formerly 1.0833em; */
 }
 html[related-videos-size="small"] {
 --bt-related-title-font-size: 13px;
@@ -234,7 +226,7 @@ html[related-videos^="polymer"] {
 
 /* BTSection Related Videos ====================================== */
 html[related-videos] ytd-watch-flexy #related.ytd-watch-flexy {
-  /*background: var(--bt-related-bg);
+  background: var(--bt-related-bg);
   margin-top: var(--bt-related-margin-top, 18px);
   padding-top: var(--bt-related-padding-top) !important;
   box-shadow: var(--bt-related-box-shadow);
@@ -245,16 +237,14 @@ html[related-videos] ytd-watch-flexy #related.ytd-watch-flexy {
   /*margin-left: var(--bt-related-margin-left);*/
   overflow-y: var(--bt-related-overflow-y, clip) !important;
   overflow-x: var(--bt-related-overflow-x, clip) !important;
-  /*max-height: var(--bt-related-max-height, unset);
+  max-height: var(--bt-related-max-height, unset);
   border: var(--bt-related-border);
   overscroll-behavior: var(--bt-related-overscroll-behavior, auto);
-  width: var(--bt-related-width, unset);*/
+  width: var(--bt-related-width, unset);
 }
 html[related-videos^="hitchhiker-2014"] ytd-watch-flexy #related {
   margin-left: -12px;
-  margin-left: 0;
 }
-/*
 html[related-videos^="aozora"] ytd-watch-flexy #related.ytd-watch-flexy::before {
   content: "Suggestions";
   font-size: 12px;
@@ -274,7 +264,6 @@ html[related-videos^="stargazer"] ytd-watch-flexy #related.ytd-watch-flexy::befo
   position: absolute;
   margin-top: -24px;
 }
-*/
 html[related-videos] ytd-app[can-infi-scroll-related="no"] ytd-watch-next-secondary-results-renderer {
   padding-bottom: var(--bt-related-inner-padding-bottom);
 }

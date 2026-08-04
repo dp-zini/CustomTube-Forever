@@ -15,9 +15,7 @@ let sectall = document.querySelector('#sectall');
 let shownow = document.querySelector('#shownow');
 let shownow2 = document.querySelector('#shownow2');
 let github = document.querySelector('#github');
-let beta = document.querySelector('#beta');
 let donate = document.querySelector('#donate-button');
-let disabledTab = document.querySelector('#disabled-tab');
 sect1.onclick = function() {
 	document.getElementById("right1").style.display = "block";
 	document.querySelector("#lm1").setAttribute("active", "true");
@@ -345,19 +343,9 @@ github.onclick = function() {
 		url: `https://www.github.com/lightbeam24/CustomTube`
 	});
 }
-beta.onclick = function() {
-	browser.tabs.create({
-		url: `https://github.com/lightbeam24/CustomTube/releases/tag/Beta`
-	});
-}
 donate.onclick = function() {
 	browser.tabs.create({
 		url: `https://www.ko-fi.com/lightbeam24`
-	});
-}
-disabledTab.onclick = function() {
-	browser.tabs.create({
-		url: `https://www.youtube.com?disable_ct`
 	});
 }
 if (navigator.userAgent.match(/Firefox\/([^\s]+)/)) {
@@ -478,13 +466,6 @@ function saveSettings() {
 			newSettings[subsVidsPerRow[i].name] = subsVidsPerRow[i].value;
 		}
 	}
-	//save HPType radio buttons
-	let homepageType = document.querySelectorAll('input[type="radio"][name="homepageType"]');
-	for (let i = 0; i < homepageType.length; i++) {
-		if (homepageType[i].checked) {
-			newSettings[homepageType[i].name] = homepageType[i].value;
-		}
-	}
 	//save videoRendererSize radio buttons
 	let videoRendererSize = document.querySelectorAll('input[type="radio"][name="videoRendererSize"]');
 	for (let i = 0; i < videoRendererSize.length; i++) {
@@ -504,13 +485,6 @@ function saveSettings() {
 	for (let i = 0; i < videoPlayerStyle.length; i++) {
 		if (videoPlayerStyle[i].checked) {
 			newSettings[videoPlayerStyle[i].name] = videoPlayerStyle[i].value;
-		}
-	}
-	//save relatedHeader radio buttons
-	let relatedHeader = document.querySelectorAll('input[type="radio"][name="relatedHeader"]');
-	for (let i = 0; i < relatedHeader.length; i++) {
-		if (relatedHeader[i].checked) {
-			newSettings[relatedHeader[i].name] = relatedHeader[i].value;
 		}
 	}
 	//save hideShortsSubs radio buttons
@@ -553,13 +527,6 @@ function saveSettings() {
 	for (let i = 0; i < thumbnailStyle.length; i++) {
 		if (thumbnailStyle[i].checked) {
 			newSettings[thumbnailStyle[i].name] = thumbnailStyle[i].value;
-		}
-	}
-	//save watchMetadata radio buttons
-	let watchMetadata = document.querySelectorAll('input[type="radio"][name="watchMetadata"]');
-	for (let i = 0; i < watchMetadata.length; i++) {
-		if (watchMetadata[i].checked) {
-			newSettings[watchMetadata[i].name] = watchMetadata[i].value;
 		}
 	}
 	storage.set({BTConfig: newSettings});
@@ -649,18 +616,15 @@ function getSettings() {
 	document.querySelector(`input[type="radio"][value="${currentSettings.channelVidsPerRow}"]`).checked = true;
 	document.querySelector(`input[type="radio"][value="${currentSettings.homepageVidsPerRow}"]`).checked = true;
 	document.querySelector(`input[type="radio"][value="${currentSettings.subsVidsPerRow}"]`).checked = true;
-	//document.querySelector(`input[type="radio"][value="${currentSettings.homepageType}"]`).checked = true;
 	document.querySelector(`input[type="radio"][value="${currentSettings.videoRendererSize}"]`).checked = true;
 	document.querySelector(`input[type="radio"][value="${currentSettings.videoPlayerSize}"]`).checked = true;
 	document.querySelector(`input[type="radio"][value="${currentSettings.videoPlayerStyle}"]`).checked = true;
-	document.querySelector(`input[type="radio"][value="${currentSettings.relatedHeader}"]`).checked = true;
 	document.querySelector(`input[type="radio"][value="${currentSettings.hideShortsSubs}"]`).checked = true;
 	document.querySelector(`input[type="radio"][value="${currentSettings.showVideosLink}"]`).checked = true;
 	document.querySelector(`input[type="radio"][value="${currentSettings.useAppbar}"]`).checked = true;
 	document.querySelector(`input[type="radio"][value="${currentSettings.appbarMode}"]`).checked = true;
 	document.querySelector(`input[type="radio"][value="${currentSettings.favicon}"]`).checked = true;
-	//document.querySelector(`input[type="radio"][value="${currentSettings.thumbnailStyle}"]`).checked = true;
-	document.querySelector(`input[type="radio"][value="${currentSettings.watchMetadata}"]`).checked = true;
+	document.querySelector(`input[type="radio"][value="${currentSettings.thumbnailStyle}"]`).checked = true;
 }
 
 //main

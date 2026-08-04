@@ -79,8 +79,6 @@ html[layout^="polymer"] {
   --bt-appbar-tab-border-bottom-hover: 3px solid var(--bt-gcp-888);
   --bt-appbar-tab-border-bottom-active: 3px solid var(--bt-gcp-444);
   --bt-appbar-tab-padding: 0 24px;
-  --bt-related-tab-padding: 0 16px;
-  --bt-related-tab-margin: 0 5px;
   --bt-appbar-tab-font-weight-active: 500;
 }
 [static] {
@@ -154,8 +152,7 @@ html[appbar-pinned] #bt-appbar {
   display: flex;
   border-left: var(--bt-appbar-tab-border-right);
 }
-.appbar-link,
-[ct] .related-tab {
+.appbar-link {
   height: var(--bt-appbar-tab-height);
   display: flex;
   align-items: center;
@@ -171,28 +168,20 @@ html[appbar-pinned] #bt-appbar {
   text-transform: var(--bt-channel-page-tab-text-transform);
   font-weight: var(--bt-appbar-tab-font-weight, normal);
 }
-[ct] .related-tab {
-  padding: var(--bt-related-tab-padding, var(--bt-appbar-tab-padding, var(--bt-channel-page-tab-padding)));
-  margin: var(--bt-related-tab-margin, var(--bt-appbar-link-margin));
-}
 #appbar-watch-videos {
   color: var(--bt-appbar-tab-text-color, var(--bt-gcp-666));
 }
-.appbar-link:hover,
-[ct] .related-tab:hover {
+.appbar-link:hover {
   border-bottom: var(--bt-appbar-tab-border-bottom-hover, var(--bt-channel-page-tab-border-bottom-hover));
   color: var(--bt-appbar-tab-text-color, var(--bt-gcp-666));
   background: var(--bt-appbar-tab-bg-hover);
 }
-.appbar-link:active,
-[ct] .related-tab:active {
+.appbar-link:active {
   color: var(--bt-appbar-tab-text-color, var(--bt-gcp-333));
   background: var(--bt-appbar-tab-bg-active, var(--bt-channel-page-tab-bg-active));
 }
 .appbar-link[active],
-.appbar-link[active-forever],
-[ct] .related-tab[active],
-[ct] .related-tab[active-forever] {
+.appbar-link[active-forever] {
   background: var(--bt-channel-page-tab-bg-active);
   border-bottom: var(--bt-appbar-tab-border-bottom-active, var(--bt-channel-page-tab-border-bottom-active));
   color: var(--bt-appbar-tab-text-color, var(--bt-gcp-333));
@@ -207,8 +196,7 @@ html[appbar-pinned] #bt-appbar {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.appbar-link-inner,
-[ct] .related-tab-inner {
+.appbar-link-inner {
   display: flex;
   align-items: center;
   height: 100%;

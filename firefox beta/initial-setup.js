@@ -18,13 +18,10 @@ const defaultSettings = {
 	"channelVidsDropdown": "CVDDauto", 
 	"channelVidsPerRow": "CVPRauto", 
 	"homepageVidsPerRow": "HPVPRauto", 
-	"homepageType": "HPTypeAuto", 
 	"subsVidsPerRow": "SVPRauto", 
 	"videoRendererSize": "VRSizeAuto", 
 	"videoPlayerSize": "PS854x480",
-	"videoPlayerStyle": "PSTauto",
-	"relatedHeader": "RHauto", 
-	"watchMetadata": "WMauto",
+	"videoPlayerStyle": "PSTauto", 	
 	"hideShortsSubs": "HSSauto", 
 	"showVideosLink": "SVLauto", 
 	"useAppbar": "UABauto", 
@@ -49,8 +46,7 @@ const defaultSettings = {
 	"subsSidebarBtn": true,
 	/* topbar */
 	"logoEndpoint": "LEHome",
-	"iUseRYD": true,
-	"useRYDAPI": true,
+	"iUseRYD": false,
 	/* tweaks */
 	"loopByDefault": false,
 	"noJoin": true,
@@ -67,6 +63,11 @@ const defaultSettings = {
 	"showChangelog": true
 };
 storage.set({BTDefaultConfig: defaultSettings});
+// Synchronous floor: guarantees BTConfig is a valid object before main.js's
+// top-level code reads it, so a slow async storage read can't hard-throw and
+// take the whole layout engine down with it. The real stored config overwrites
+// this inside initiate() below.
+BTConfig = defaultSettings;
 initiate();
 function initiate() {
 	storage.get(['BTConfig'], function(result) {

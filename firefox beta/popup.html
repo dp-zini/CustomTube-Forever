@@ -364,12 +364,6 @@
 		  margin-top: 4px;
 		  margin-left: 4px;
 		}
-		.small-text {
-		  font-size: 12px !important;
-		  color: #880 !important;
-		  margin-top: 4px;
-		  margin-left: 4px;
-		}
 		.beta-text {
 			font-size: 10px;
 			font-weight: normal;
@@ -477,7 +471,7 @@
 		  100% {max-height: 0px;}
 		}
 		body[no-flexy="true"] #noflexy-options {
-		  max-height: 220px;
+		  max-height: 200px;
 		}
 		body[no-flexy="false"] #noflexy-options {
 		  opacity: 0;
@@ -523,7 +517,7 @@
 					<img src="images/logo.png" style="height: 28px;">
 					<img src="images/ctlogo.png" style="height: 28px;">
 				</p>
-				<p class="small-sub">V1.3.0 Beta 2</p>
+				<p class="small-sub">V1.2.7.2</p>
 				<p class="subtitle">Configuration Window</p>
 				<div class="top-item" id="lmall" active="false">
 					<button id="sectall">Show All Settings</button>
@@ -545,7 +539,7 @@
 						</div>
 					</div>
 					<div class="left-section">
-						<div class="left-item" id="lm1" active="false" new>
+						<div class="left-item" id="lm1" active="false">
 							<button id="sect1">Misc</button>
 							<div class="new"></div>
 						</div>
@@ -553,7 +547,7 @@
 							<button id="sect2">Layout</button>
 							<div class="new"></div>
 						</div>
-						<div class="left-item" id="lm3" active="false">
+						<div class="left-item" id="lm3" active="false" new>
 							<button id="sect3">Tweaks</button>
 							<div class="new"></div>
 						</div>
@@ -572,7 +566,7 @@
 							<button id="sect5">Topbar</button>
 							<div class="new"></div>
 						</div>
-						<div class="left-item" id="lm6" active="false">
+						<div class="left-item" id="lm6" active="false" new>
 							<button id="sect6">Appbar</button>
 							<div class="new"></div>
 						</div>
@@ -627,21 +621,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="left-section">
-						<div class="left-title">
-							<p>Beta Stuff</p>
-						</div>
-					</div>
-					<div class="left-section">
-						<div class="left-item left-link" id="beta" active="false" title="Check for a new Beta release on the CustomTube GitHub">
-							<button>Beta Releases</button>
-							<div class="new"></div>
-						</div>
-						<div class="left-item left-link" id="disabled-tab" active="false" title="Open a new YouTube tab with most of CustomTube's functions disabled. This will only apply to that tab. (You can do this manually by appending ?disable_ct to the URL of any YouTube tab)">
-							<button>Open CT-less tab</button>
-							<div class="new"></div>
-						</div>
-					</div>
 			</div>
 			<div id="right-outer">
 				<div id="right1" class="right">
@@ -665,10 +644,10 @@
 							</a>
 						</opt>
 						<opt title="">
-							<label new><input type="checkbox" name="showNew" class="settings">Show indicators for settings new to Version 1.3.0</label>
+							<label new><input type="checkbox" name="showNew" class="settings">Show indicators for settings new to Version 1.2.7</label>
 						</opt>
-						<opt title="Enable dislike counts, as well as full like counts. Due to changes in CustomTube 1.3.0, the Return YouTube Dislike extension no longer works with CustomTube. As such, CustomTube is now capable of restoring dislikes without the need of another extension.">
-							<label new><input type="checkbox" name="useRYDAPI" class="settings">Restore dislike counts (using the Return YouTube Dislike API)</label>
+						<opt title="Allows CustomTube to better integrate the dislike count into the layout. Do not enable this if you aren't using the Return YouTube Dislike extension.">
+							<label><input type="checkbox" name="iUseRYD" class="settings">Enable Return YouTube Dislike compatibility</label>
 						</opt>
 					</div>
 				</div>
@@ -772,11 +751,11 @@
 						<div class="right-subtitle">
 							<p>Changes the little icon that appears on YouTube tabs.</p>
 						</div>
-						<label class="logo-label" title="Determined by layout setting"><input type="radio" name="favicon" class="settings" value="faviAuto" style="display:inline-block;">Auto</label><br>
-						<label class="logo-label" title=""><input type="radio" name="favicon" class="settings" value="favi2011" style="display:inline-block;">2011 and earlier</label><br>
-						<label class="logo-label" title=""><input type="radio" name="favicon" class="settings" value="favi2012" style="display:inline-block;">2011-2015</label><br>
-						<label class="logo-label" title=""><input type="radio" name="favicon" class="settings" value="favi2016" style="display:inline-block;">2015-2017</label><br>
-						<label class="logo-label" title=""><input type="radio" name="favicon" class="settings" value="favi2017" style="display:inline-block;">2017-present</label><br>
+						<label class="logo-label" title="Determined by layout setting" new><input type="radio" name="favicon" class="settings" value="faviAuto" style="display:inline-block;">Auto</label><br>
+						<label class="logo-label" title="" new><input type="radio" name="favicon" class="settings" value="favi2011" style="display:inline-block;">2011 and earlier</label><br>
+						<label class="logo-label" title="" new><input type="radio" name="favicon" class="settings" value="favi2012" style="display:inline-block;">2011-2015</label><br>
+						<label class="logo-label" title="" new><input type="radio" name="favicon" class="settings" value="favi2016" style="display:inline-block;">2015-2017</label><br>
+						<label class="logo-label" title="" new><input type="radio" name="favicon" class="settings" value="favi2017" style="display:inline-block;">2017-present</label><br>
 					</div>
 				</div>
 				<div id="right4" class="right">
@@ -857,9 +836,9 @@
 						<div class="right-subtitle">
 							<p>Adds a navigation bar below the topbar. Note that all Appbar links and text are in English regardless of what language YouTube is set to.</p>
 						</div>
-						<label class="logo-label" title="On for layouts from 2014-2017."><input type="radio" name="useAppbar" class="settings" value="UABauto" style="display:inline-block;">Auto</label><br>
-						<label class="logo-label" title="Always on"><input type="radio" name="useAppbar" class="settings" value="UABon" style="display:inline-block;">On</label><br>
-						<label class="logo-label" title="Always off"><input type="radio" name="useAppbar" class="settings" value="UABoff" style="display:inline-block;">Off</label><br>
+						<label class="logo-label" new title="On for layouts from 2014-2017."><input type="radio" name="useAppbar" class="settings" value="UABauto" style="display:inline-block;">Auto</label><br>
+						<label class="logo-label" new title="Always on"><input type="radio" name="useAppbar" class="settings" value="UABon" style="display:inline-block;">On</label><br>
+						<label class="logo-label" new title="Always off"><input type="radio" name="useAppbar" class="settings" value="UABoff" style="display:inline-block;">Off</label><br>
 					</div>
 					<div class="right-inner">
 						<div class="right-title">
@@ -869,8 +848,8 @@
 							<p>If the appbar is pinned, it will always be visible. If it's not pinned, it will dynamically show and hide itself (usually becoming visible when you scroll down). 
 							Note that this is just to choose the behavior the Appbar uses when YouTube first loads, you can pin and unpin the Appbar at any time with the pin button (on supported layouts).</p>
 						</div>
-						<label class="logo-label" title="The Appbar will dynamically show and hide itself (usually when you scroll down)."><input type="radio" name="appbarMode" class="settings" value="ABMunpinned" style="display:inline-block;">Unpinned</label><br>
-						<label class="logo-label" title="The Appbar will always be displayed."><input type="radio" name="appbarMode" class="settings" value="ABMpinned" style="display:inline-block;">Pinned*</label><br>
+						<label class="logo-label" new title="The Appbar will dynamically show and hide itself (usually when you scroll down)."><input type="radio" name="appbarMode" class="settings" value="ABMunpinned" style="display:inline-block;">Unpinned</label><br>
+						<label class="logo-label" new title="The Appbar will always be displayed."><input type="radio" name="appbarMode" class="settings" value="ABMpinned" style="display:inline-block;">Pinned*</label><br>
 						<p class="subtitle">* Appbar pinning is not supported on layouts before 2014, so this option will have no effect on those layouts.</p>
 					</div>
 				</div>
@@ -878,17 +857,6 @@
 					<div class="right-supertitle">
 						<p>Advanced: Home Page</p>
 					</div>
-					<!--div class="right-inner">
-						<div class="right-title">
-							<p>Homepage Content</p>
-						</div>
-						<div class="right-subtitle">
-							<p>Choose how videos are organized on the homepage. Note that the main purpose of this setting is to change the functionality of the homepage, rather than the appearance. Also, some features such as Inline Playback will be unavailable if Shelves are enabled.</p>
-						</div>
-						<label class="logo-label" title="" new><input type="radio" name="homepageType" class="settings" value="HPTypeAuto" style="display:inline-block;">Auto</label><br>
-						<label class="logo-label" title="The current homepage. CustomTube uses it for the 2008-2012 layouts, as well as the 2020-2021 layouts." new><input type="radio" name="homepageType" class="settings" value="HPTypeGrid" style="display:inline-block;">Modern (Grid)</label><br>
-						<label class="logo-label" title="The classic homepage. CustomTube uses it for the Early 2013-2019 layouts." new><input type="radio" name="homepageType" class="settings" value="HPTypeShelves" style="display:inline-block;">Classic (Shelves)</label><br>
-					</div-->
 					<div class="right-inner">
 						<div class="right-title">
 							<p>Homepage Videos Per Row</p>
@@ -937,6 +905,9 @@
 						<p>Advanced: Watch Page</p>
 					</div>
 					<div class="right-inner">
+						<opt title="Some users have gotten a new watch page design that plays the video inside the homepage. CustomTube is not built to handle this new watch page yet, so when it detects this new watch page, it automatically refreshes the page, redirecting to the regular watch page. Turn this setting off if it causes issues.">
+							<label><input type="checkbox" name="blockRGW" class="settings">Disable Rich Grid Watch Page</label>
+						</opt>
 						<div class="right-title">
 							<p>Video Player</p>
 						</div>
@@ -949,8 +920,7 @@
 							<p>Video Player Size</p>
 						</div>
 						<div class="right-subtitle">
-							<p>Change the size of the video player. Only affects layouts from Early 2013 or later, all older layouts force a 640x360 player. But it's best to have this option enabled when using the 2008-2012 layouts anyway.</p>
-							<p class="small-text">New: Custom player sizes now work on the 2013 layouts.</p>
+							<p>Change the size of the video player. Only affects layouts from 2014 or later, all older layouts force a 640x360 player. But it's best to have this option enabled when using the 2008-2013 layouts anyway.</p>
 						</div>
 						<opt title="Allows you to choose a custom player size. (New options will appear if this option is enabled)">
 							<label><input type="checkbox" name="noFlexy" class="settings">Use Custom Player Size (Size options will appear if enabled)</label>
@@ -963,8 +933,6 @@
 							<label class="logo-label"><input type="radio" name="videoPlayerSize" class="settings" value="PS854x480" style="display:inline-block;">854x480</label><br>
 							<label class="logo-label"><input type="radio" name="videoPlayerSize" class="settings" value="PS1024x576" style="display:inline-block;">1024x576</label><br>
 							<label class="logo-label"><input type="radio" name="videoPlayerSize" class="settings" value="PS1280x720" style="display:inline-block;">1280x720</label><br>
-							<label class="logo-label" new><input type="radio" name="videoPlayerSize" class="settings" value="PS1600x900" style="display:inline-block;">1600x900</label><br>
-							<label class="logo-label" new><input type="radio" name="videoPlayerSize" class="settings" value="PS1920x1080" style="display:inline-block;">1920x1080</label><br>
 							<line-seperator></line-seperator>
 							<p class="mini-text info-text">4:3</p>
 							<label class="logo-label"><input type="radio" name="videoPlayerSize" class="settings" value="PS640x480" style="display:inline-block;">640x480</label><br>
@@ -992,9 +960,9 @@
 						<div class="right-subtitle">
 							<p>Display the video count next to the video owner's name. Clicking on this link will take you to their videos page.</p>
 						</div>
-						<label class="logo-label" title="It will only appear on layouts from Early 2013 to 2014."><input type="radio" name="showVideosLink" class="settings" value="SVLauto" style="display:inline-block;">Auto</label><br>
-						<label class="logo-label" title="Always on"><input type="radio" name="showVideosLink" class="settings" value="SVLon" style="display:inline-block;">On*</label><br>
-						<label class="logo-label" title="Always off"><input type="radio" name="showVideosLink" class="settings" value="SVLoff" style="display:inline-block;">Off</label><br>
+						<label class="logo-label" new title="It will only appear on layouts from Early 2013 to 2014."><input type="radio" name="showVideosLink" class="settings" value="SVLauto" style="display:inline-block;">Auto</label><br>
+						<label class="logo-label" new title="Always on"><input type="radio" name="showVideosLink" class="settings" value="SVLon" style="display:inline-block;">On*</label><br>
+						<label class="logo-label" new title="Always off"><input type="radio" name="showVideosLink" class="settings" value="SVLoff" style="display:inline-block;">Off</label><br>
 						<p class="subtitle">* Will not display on the 2011 and 2012 layouts due to the videos dropdown button already being present.</p>
 					</div>
 					<div class="right-inner">
@@ -1004,16 +972,6 @@
 						<opt title="You can press load more videos once and that's it, just like it used to be.">
 							<label><input type="checkbox" name="noInfi" class="settings">Disable Infinite Scrolling on related videos</input>
 						</opt>
-					</div>
-					<div class="right-inner">
-						<div class="right-title">
-							<p>Related videos header</p>
-						</div>
-						<div class="right-subtitle">
-							<p></p>
-						</div>
-						<label class="logo-label" new><input type="radio" name="relatedHeader" class="settings" value="RHauto" style="display:inline-block;">Auto</label><br>
-						<label class="logo-label" new><input type="radio" name="relatedHeader" class="settings" value="RHautoplay" style="display:inline-block;">Autoplay</label><br>
 					</div>
 					<div class="right-inner">
 						<div class="right-title">
@@ -1027,23 +985,6 @@
 						<label class="logo-label " title="120x68 pixels"><input type="radio" name="relatedSize" class="settings" value="small" style="display:inline-block;">Small (2012-2016)</label><br>
 						<label class="logo-label " title="140x79 pixels"><input type="radio" name="relatedSize" class="settings" value="medium" style="display:inline-block;">Medium (Custom Middleground)</label><br>
 						<label class="logo-label " title="168x94 pixels"><input type="radio" name="relatedSize" class="settings" value="large" style="display:inline-block;">Large (2017-Present)</label><br>
-					</div>
-					<div class="right-inner">
-						<div class="right-title">
-							<p>Watch version</p>
-						</div>
-						<div class="right-subtitle">
-							<p></p>
-						</div>
-						<label class="logo-label" new><input type="radio" name="watchMetadata" class="settings" value="WMauto" style="display:inline-block;">Auto</label><br>
-						<label class="logo-label" new><input type="radio" name="watchMetadata" class="settings" value="WMwatch4A" style="display:inline-block;">Watch4</label><br>
-						<label class="logo-label" new><input type="radio" name="watchMetadata" class="settings" value="WMwatch5C" style="display:inline-block;">Watch5C (2011)</label><br>
-						<label class="logo-label" new><input type="radio" name="watchMetadata" class="settings" value="WMwatch5D" style="display:inline-block;">Watch5D (2012)</label><br>
-						<label class="logo-label" new><input type="radio" name="watchMetadata" class="settings" value="WMwatch7" style="display:inline-block;">Watch7 (2013-2014)</label><br>
-						<label class="logo-label" new><input type="radio" name="watchMetadata" class="settings" value="WMwatch8" style="display:inline-block;">Watch8 (2014-2017)</label><br>
-						<label class="logo-label" new><input type="radio" name="watchMetadata" class="settings" value="WMwatch9A" style="display:inline-block;">Watch9A (2017-2019)</label><br>
-						<label class="logo-label" new><input type="radio" name="watchMetadata" class="settings" value="WMwatch9B" style="display:inline-block;">Watch9B (2020-2022)</label><br>
-						<label class="logo-label" new><input type="radio" name="watchMetadata" class="settings" value="WMdisabled" style="display:inline-block;">Use current watch layout</label><br>
 					</div>
 				</div>
 				<div id="right10" class="right">
