@@ -1,10 +1,10 @@
 # CustomTube-Forever
 
-**CustomTube lives on.** The original CustomTube was discontinued in favour of StarTube, but the layout engine that made it great didn't go anywhere — it just needed someone to keep it running. This is that fork.
+**CustomTube lives on.** The original CustomTube was discontinued in favour of StarTube, but I hated how sluggish it felt with V3 so I took it upon myself to continue updating it.
 
 What if you could just CHOOSE your YouTube layout? Well, you still can. CustomTube-Forever lets you use almost any YouTube layout from 2008–2021, and it keeps working as YouTube changes underneath it.
 
-> This is a community-maintained fork of [lightbeam24/CustomTube](https://github.com/lightbeam24/CustomTube). All original credit goes to the original author; see [Credits](#credits) and the bundled `LICENSE`. Replace the repo links below with your own once you've pushed.
+> This is a community-maintained fork of [lightbeam24/CustomTube](https://github.com/lightbeam24/CustomTube). All original credit goes to the original author; see [Credits](#credits) and the bundled `LICENSE`.
 
 ----
 
@@ -12,11 +12,11 @@ What if you could just CHOOSE your YouTube layout? Well, you still can. CustomTu
 
 ## Why this fork is fast
 
-CustomTube-Forever keeps the original's front-end-only design, and that's the whole point.
+CustomTube-Forever keeps the original's front-end-only design.
 
-StarTube and similar successors rely on **Vorapis 2013 (V3)** — a backend layer that sits between you and YouTube, intercepting and rewriting API responses before the page ever sees them. That's powerful, but it's also overhead on every request.
+StarTube and similar successors rely on **Vorapis 2013 (V3)** - a backend layer that sits between your browser and YouTube, intercepting and rewriting API responses before the page ever sees them. That allows it to have more accurate layout designs, but it's also huge performance overhead on every request.
 
-CustomTube-Forever doesn't do any of that. It's CSS and DOM work, applied directly in the page. No backend interception layer, no proxy, no extra round-trips. That's what made the original feel snappy compared to backend-driven alternatives, and this fork keeps it that way.
+CustomTube-Forever doesn't do any of that. It's CSS and DOM, applied directly to the page. No backend interception layer, no proxy.
 
 If you missed how light the old CustomTube felt, that's what you're getting back.
 
@@ -66,8 +66,6 @@ If you have a user agent switcher installed, make sure it's disabled on youtube.
 ![2011layout](https://github.com/lightbeam24/CustomTube/assets/105595945/ebed9e8a-5061-42bb-be13-92f5d0c3f400)
 
 ![2008layout](https://github.com/lightbeam24/CustomTube/assets/105595945/5966a02a-a501-4629-8fb2-bd6fc7967d18)
-
-*(These are the original author's showcase images, hotlinked from the upstream repo. You may want to re-host your own once the fork has diverged.)*
 
 ## Credits
 
