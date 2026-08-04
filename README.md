@@ -24,12 +24,9 @@ If you missed how light the old CustomTube felt, that's what you're getting back
 
 The fork isn't on the add-on stores yet, so for now you load it from source.
 
-**Firefox (temporary install):**
-1. Download or clone this repo.
-2. Go to `about:debugging#/runtime/this-firefox`.
-3. Click **Load Temporary Add-on** and select the `manifest.json` inside the `firefox` folder.
-
-Temporary add-ons are removed when you close Firefox — that's expected during active development. A signed build for permanent install is on the to-do list.
+**Firefox:**
+1. Download the xpi from the releases tab.
+2. The extension should automatically install as soon as you click accept.
 
 For reference, the **original** CustomTube (not this fork) is still listed here:
 
