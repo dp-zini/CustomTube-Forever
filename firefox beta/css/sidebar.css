@@ -934,26 +934,26 @@ html[sidebar-style^="hitchhiker"] ytd-guide-entry-renderer:hover #endpoint.yt-si
   background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vfljEooDy.png) -113px -1533px;
 }
 html[sidebar-style^="hitchhiker"] ytd-guide-entry-renderer #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer[href^="/playlist"] .guide-icon.ytd-guide-entry-renderer {
-  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNlthLq.webp) -288px -110px;
+  background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNlthLq.webp) -288px -110px;
 }
 html[sidebar-style^="hitchhiker"] ytd-guide-entry-renderer[active] #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer[href^="/playlist"] .guide-icon.ytd-guide-entry-renderer,
 html[sidebar-style^="hitchhiker"] ytd-guide-entry-renderer:hover #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer[href^="/playlist"] .guide-icon.ytd-guide-entry-renderer {
-  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNlthLq.webp) -731px -201px;
+  background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNlthLq.webp) -731px -201px;
 }
 html[sidebar-style^="hitchhiker"] ytd-guide-entry-renderer #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer[href="/playlist?list=LL"] .guide-icon.ytd-guide-entry-renderer {
-  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNlthLq.webp) -568px -209px;
+  background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNlthLq.webp) -568px -209px;
 
 }
 html[sidebar-style^="hitchhiker"] ytd-guide-entry-renderer[active] #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer[href="/playlist?list=LL"] .guide-icon.ytd-guide-entry-renderer,
 html[sidebar-style^="hitchhiker"] ytd-guide-entry-renderer:hover #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer[href="/playlist?list=LL"] .guide-icon.ytd-guide-entry-renderer {
-  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNlthLq.webp) -288px -167px;
+  background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNlthLq.webp) -288px -167px;
 }
 html[sidebar-style^="hitchhiker"] ytd-guide-entry-renderer #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer[href="/playlist?list=WL"] .guide-icon.ytd-guide-entry-renderer {
-  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNlthLq.webp) -507px -233px;
+  background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNlthLq.webp) -507px -233px;
 }
 html[sidebar-style^="hitchhiker"] ytd-guide-entry-renderer[active] #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer[href="/playlist?list=WL"] .guide-icon.ytd-guide-entry-renderer,
 html[sidebar-style^="hitchhiker"] ytd-guide-entry-renderer:hover #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer[href="/playlist?list=WL"] .guide-icon.ytd-guide-entry-renderer {
-  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNlthLq.webp) -628px -306px;
+  background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNlthLq.webp) -628px -306px;
 }
 html[sidebar-style^="hitchhiker"] ytd-guide-entry-renderer #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer[href="/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"] .guide-icon.ytd-guide-entry-renderer {
   background: url(https://i.imgur.com/O23MSHE.jpg);
@@ -1066,4 +1066,10 @@ html[guide-right-aligned] #guide {
 html[guide-right-aligned][sidebar-style] ytd-app[guide-persistent-and-visible] ytd-page-manager.ytd-app {
   margin-right: var(--bt-sidebar-width) !important;
   margin-left: 0;
+}
+/* CustomTube-Forever: re-assert icon+label centering (YouTube no longer provides it by default) */
+html[sidebar-style] #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer {
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: row !important;
 }

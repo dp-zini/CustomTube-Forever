@@ -22,7 +22,7 @@ html[watch-metadata-style^="hitchhiker-2013"] ytd-watch-flexy[guide] #guide-butt
   transition: 0.25s linear;
 }
 html[watch-metadata-style^="hitchhiker-2013"] ytd-watch-flexy #guide-button #bt-guide-icon {
-  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -51px 0;
+  background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -51px 0;
   width: 18px;
   height: 18px;
 }
@@ -30,7 +30,7 @@ ytd-watch-flexy #guide-button:not(:first-of-type) {
   display: none !important;
 }
 html[watch-metadata-style^="hitchhiker-2013"] ytd-watch-flexy #guide-button:hover #bt-guide-icon {
-  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) 0 -22px;
+  background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) 0 -22px;
 }
 html[watch-metadata-style^="hitchhiker-2013"] ytd-watch-flexy #guide-button::after {
   content: "Guide";

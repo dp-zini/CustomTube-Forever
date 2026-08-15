@@ -138,7 +138,7 @@ html[watch-metadata-style^="hitchhiker-2013-1"][layout] #watch7-sub-button:activ
   background: linear-gradient(to top,#fff 0,#d2d2d2 100%);
 }
 html[watch-metadata-style^="hitchhiker-2013-1"] [state="subscribe"] .watch7-sub-icon {
-  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflaJ9wdK.png) 4px -143px;
+  background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflaJ9wdK.png) 4px -143px;
   background-size: auto;
   width: 24px;
   height: 22px;
@@ -182,11 +182,11 @@ html[watch-metadata-style^="hitchhiker-2013-1"] [state="subscribe"] .watch7-sub-
   background-position: 0 -734px;
 }
 html[watch-metadata-style^="hitchhiker-2013-1"] [state="subscribe"] .watch7-sub-icon:hover::before {
-  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflaJ9wdK.png) 4px -143px, linear-gradient(to bottom,#b85046 0,#91251e 100%);
+  background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflaJ9wdK.png) 4px -143px, linear-gradient(to bottom,#b85046 0,#91251e 100%);
   border: 1px solid #6c0400;
 }
 html[watch-metadata-style^="hitchhiker-2013-1"] [state="subscribe"] .watch7-sub-icon:active::before {
-  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflaJ9wdK.png) 4px -143px, linear-gradient(to top,#b85046 0,#91251e 100%);
+  background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflaJ9wdK.png) 4px -143px, linear-gradient(to top,#b85046 0,#91251e 100%);
   border: 1px solid #6c0400;
   box-shadow: inset 0 2px 2px rgba(0,0,0,.75);
 }
@@ -260,11 +260,11 @@ html:not([layout^="hitchhiker-2015"]):not([layout^="hitchhiker-2016"]):not([layo
 }
 [ct][watch-metadata-style^="hitchhiker-2013"]:not([watch-metadata-style^="hitchhiker-2013-3"]) .watch7-like .watch7-ltod-icon,
 [ct][watch-metadata-style^="hitchhiker-2013"]:not([watch-metadata-style^="hitchhiker-2013-3"]) .watch8-like .watch8-ltod-icon {
-  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -158px -193px;
+  background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -158px -193px;
 }
 [ct][watch-metadata-style^="hitchhiker-2013"]:not([watch-metadata-style^="hitchhiker-2013-3"]) .watch7-like.active .watch7-ltod-icon,
 [ct][watch-metadata-style^="hitchhiker-2013"]:not([watch-metadata-style^="hitchhiker-2013-3"]) .watch8-like.active .watch8-ltod-icon {
-  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -66px -186px;
+  background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -66px -186px;
 }
 [ct][watch-metadata-style^="hitchhiker-2013"]:not([watch-metadata-style^="hitchhiker-2013-3"]) .watch7-like.active,
 [ct][watch-metadata-style^="hitchhiker-2013"]:not([watch-metadata-style^="hitchhiker-2013-3"]) .watch8-like.active {
@@ -272,12 +272,12 @@ html:not([layout^="hitchhiker-2015"]):not([layout^="hitchhiker-2016"]):not([layo
 }
 [ct][watch-metadata-style^="hitchhiker-2013"]:not([watch-metadata-style^="hitchhiker-2013-3"]) .watch7-dislike .watch7-ltod-icon,
 [ct][watch-metadata-style^="hitchhiker-2013"]:not([watch-metadata-style^="hitchhiker-2013-3"]) .watch8-dislike .watch8-ltod-icon {
-  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -26px -85px;
+  background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -26px -85px;
   margin-top: -2px;
 }
 [ct][watch-metadata-style^="hitchhiker-2013"]:not([watch-metadata-style^="hitchhiker-2013-3"]) .watch7-dislike.active .watch7-ltod-icon,
 [ct][watch-metadata-style^="hitchhiker-2013"]:not([watch-metadata-style^="hitchhiker-2013-3"]) .watch8-dislike.active .watch8-ltod-icon {
-  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -136px 0;
+  background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -136px 0;
 }
 [ct][watch-metadata-style^="hitchhiker-2013"]:not([watch-metadata-style^="hitchhiker-2013-3"]) .watch7 #js-likes,
 [ct][watch-metadata-style^="hitchhiker-2013"]:not([watch-metadata-style^="hitchhiker-2013-3"]) .watch8 #js-likes {

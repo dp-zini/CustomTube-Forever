@@ -314,15 +314,15 @@ html[watch-metadata-style^="hitchhiker-2013"] {
 --bt-ltod-icon-margin-top: -2px;
 --bt-like-icon-margin-right: 12px;
 --bt-like-icon-margin-left: -8px;
---bt-like-icon-bg: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -158px -193px;
+--bt-like-icon-bg: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -158px -193px;
 --bt-like-icon-opacity: 1;
---bt-like-icon-bg-active: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -66px -186px;
+--bt-like-icon-bg-active: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -66px -186px;
 --bt-like-icon-opacity-active: 1;
 --bt-dislike-icon-margin-right: 0;
 --bt-dislike-icon-margin-left: 5px;
---bt-dislike-icon-bg: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -26px -85px;
+--bt-dislike-icon-bg: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -26px -85px;
 --bt-dislike-icon-opacity: 1;
---bt-dislike-icon-bg-active: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -136px 0;
+--bt-dislike-icon-bg-active: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflX22WRH.png) -136px 0;
 --bt-dislike-icon-opacity-active: 1;
 }
 html[watch-metadata-style^="hitchhiker-2013-3"] {
@@ -341,46 +341,46 @@ html[watch-metadata-style^="cosmicpanda"] {
 --bt-ltod-icon-margin-top: 0;
 --bt-like-icon-margin-right: 10px;
 --bt-like-icon-margin-left: -4px;
---bt-like-icon-bg: no-repeat url(http://s.ytimg.com/yt/imgbin/www-refresh-vflXkUAsM.png) -190px -254px;
+--bt-like-icon-bg: no-repeat url(https://s.ytimg.com/yt/imgbin/www-refresh-vflXkUAsM.png) -190px -254px;
 --bt-like-icon-opacity: 1;
---bt-like-icon-bg-active: no-repeat url(http://s.ytimg.com/yt/imgbin/www-refresh-vflXkUAsM.png) -8px -158px;
+--bt-like-icon-bg-active: no-repeat url(https://s.ytimg.com/yt/imgbin/www-refresh-vflXkUAsM.png) -8px -158px;
 --bt-like-icon-opacity-active: 1;
 --bt-dislike-icon-margin-right: -4px;
 --bt-dislike-icon-margin-left: 7px;
 --bt-dislike-icon-new-margin-left: 0;
---bt-dislike-icon-bg: no-repeat url(http://s.ytimg.com/yt/imgbin/www-refresh-vflXkUAsM.png) -46px -251px;
+--bt-dislike-icon-bg: no-repeat url(https://s.ytimg.com/yt/imgbin/www-refresh-vflXkUAsM.png) -46px -251px;
 --bt-dislike-icon-opacity: 1;
---bt-dislike-icon-bg-active: no-repeat url(http://s.ytimg.com/yt/imgbin/www-refresh-vflXkUAsM.png) -125px -91px;
+--bt-dislike-icon-bg-active: no-repeat url(https://s.ytimg.com/yt/imgbin/www-refresh-vflXkUAsM.png) -125px -91px;
 --bt-dislike-icon-opacity-active: 1;
 }
 html[watch-metadata-style^="aozora"] {
 --bt-ltod-icon-margin-top: 1px;
 --bt-like-icon-margin-right: 0px;
 --bt-like-icon-margin-left: 8px;
---bt-like-icon-bg: no-repeat url(http://s.ytimg.com/yt/imgbin/www-master-vfl8ZHa_q.png) -267px -71px;
+--bt-like-icon-bg: no-repeat url(https://s.ytimg.com/yt/imgbin/www-master-vfl8ZHa_q.png) -267px -71px;
 --bt-like-icon-opacity: 1;
---bt-like-icon-bg-active: no-repeat url(http://s.ytimg.com/yt/imgbin/www-master-vfl8ZHa_q.png) -84px -82px;
+--bt-like-icon-bg-active: no-repeat url(https://s.ytimg.com/yt/imgbin/www-master-vfl8ZHa_q.png) -84px -82px;
 --bt-like-icon-opacity-active: 1;
 --bt-dislike-icon-margin-right: -4px;
 --bt-dislike-icon-margin-left: 7px;
---bt-dislike-icon-bg: no-repeat url(http://s.ytimg.com/yt/imgbin/www-master-vfl8ZHa_q.png) -267px -107px;
+--bt-dislike-icon-bg: no-repeat url(https://s.ytimg.com/yt/imgbin/www-master-vfl8ZHa_q.png) -267px -107px;
 --bt-dislike-icon-opacity: 1;
---bt-dislike-icon-bg-active: no-repeat url(http://s.ytimg.com/yt/imgbin/www-master-vfl8ZHa_q.png) -245px -20px;
+--bt-dislike-icon-bg-active: no-repeat url(https://s.ytimg.com/yt/imgbin/www-master-vfl8ZHa_q.png) -245px -20px;
 --bt-dislike-icon-opacity-active: 1;
 }
 html[watch-metadata-style^="stargazer"] {
 --bt-ltod-icon-margin-top: 1px;
 --bt-like-icon-margin-right: 0px;
 --bt-like-icon-margin-left: 8px;
---bt-like-icon-bg: no-repeat url(http://s.ytimg.com/yt/imgbin/www-master-vfl8ZHa_q.png) -267px -71px;
+--bt-like-icon-bg: no-repeat url(https://s.ytimg.com/yt/imgbin/www-master-vfl8ZHa_q.png) -267px -71px;
 --bt-like-icon-opacity: 1;
---bt-like-icon-bg-active: no-repeat url(http://s.ytimg.com/yt/imgbin/www-master-vfl8ZHa_q.png) -84px -82px;
+--bt-like-icon-bg-active: no-repeat url(https://s.ytimg.com/yt/imgbin/www-master-vfl8ZHa_q.png) -84px -82px;
 --bt-like-icon-opacity-active: 1;
 --bt-dislike-icon-margin-right: -4px;
 --bt-dislike-icon-margin-left: 7px;
---bt-dislike-icon-bg: no-repeat url(http://s.ytimg.com/yt/imgbin/www-master-vfl8ZHa_q.png) -267px -107px;
+--bt-dislike-icon-bg: no-repeat url(https://s.ytimg.com/yt/imgbin/www-master-vfl8ZHa_q.png) -267px -107px;
 --bt-dislike-icon-opacity: 1;
---bt-dislike-icon-bg-active: no-repeat url(http://s.ytimg.com/yt/imgbin/www-master-vfl8ZHa_q.png) -245px -20px;
+--bt-dislike-icon-bg-active: no-repeat url(https://s.ytimg.com/yt/imgbin/www-master-vfl8ZHa_q.png) -245px -20px;
 --bt-dislike-icon-opacity-active: 1;
 }
 html[watch-metadata-style]:not([watch-metadata-style^="polymer"]) #segmented-like-button button[aria-pressed="false"] #bt-like,
@@ -699,10 +699,10 @@ html[watch-metadata-style^="stargazer"] #bt-counts .bti {
   display: none;
 }
 #lcicon {
-  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vfldtjAOK.png) -28px -761px;
+  background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vfldtjAOK.png) -28px -761px;
 }
 #dcicon {
-  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vfldtjAOK.png) -36px -144px;
+  background: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vfldtjAOK.png) -36px -144px;
 }
 #lcicon,
 #dcicon {
@@ -835,4 +835,13 @@ html[watch-metadata-style^="stargazer"] like-button-view-model .yt-spec-button-s
 }
 html[layout]:not([layout^="polymer"]) like-button-view-model yt-icon-shape {
 	display: none;
+}
+/* CustomTube-Forever: if our replacement like/dislike icon didn't inject (YouTube
+   changed the button internals), reveal YouTube's native icon instead of a blank.
+   When #bt-like / #bt-dislike DO inject, the native icon stays hidden as before. */
+html[watch-metadata-style] like-button-view-model:not(:has(#bt-like)) yt-animated-icon,
+html[watch-metadata-style] like-button-view-model:not(:has(#bt-like)) svg,
+html[watch-metadata-style] dislike-button-view-model:not(:has(#bt-dislike)) yt-animated-icon,
+html[watch-metadata-style] dislike-button-view-model:not(:has(#bt-dislike)) svg {
+  display: revert !important;
 }

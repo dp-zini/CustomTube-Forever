@@ -2,7 +2,7 @@
 html {
 --bt-universal-white: #fff;
 --bt-universal-black: #000;
---bt-universal-site-bg: url(http://s.ytimg.com/yts/img/refresh/body_noise_2x-vflQP8XB1.png);
+--bt-universal-site-bg: url(https://s.ytimg.com/yts/img/refresh/body_noise_2x-vflQP8XB1.png);
 --bt-text-color-1: #ccc;
 --bt-text-color-2: #eee;
 --bt-text-color-3: #767676;
@@ -77,7 +77,7 @@ html[color-style^="hitchhiker-2014"] {
 --bt-site-bg: #f1f1f1;
 }
 html[color-style^="cosmicpanda"] {
---bt-site-bg: url(http://s.ytimg.com/yts/img/refresh/body_noise_2x-vflQP8XB1.png);
+--bt-site-bg: url(https://s.ytimg.com/yts/img/refresh/body_noise_2x-vflQP8XB1.png);
 --bt-blue: #1c62b9;
 --bt-section-bg: #f3f3f3;
 --bt-section-box-shadow: 0 1px 2px rgba(255,255,255,.1);
@@ -231,7 +231,7 @@ html[global-color-palette] {
 /* } */
 /* surface { */
 	/* 2012 */
-	--bt-gcp-refresh-bg: url(http://s.ytimg.com/yts/img/refresh/body_noise_2x-vflQP8XB1.png);
+	--bt-gcp-refresh-bg: url(https://s.ytimg.com/yts/img/refresh/body_noise_2x-vflQP8XB1.png);
 	/* 2017 */
 	--bt-gcp-fff-surface: #fff;
 	--bt-gcp-f1f1f1-surface: #f1f1f1;

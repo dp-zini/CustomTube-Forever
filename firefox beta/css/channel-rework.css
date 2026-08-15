@@ -414,7 +414,7 @@ html[channel-style^="hitchhiker"] {
 --bt-tab-shape-slider-display: none;
 }
 html[channel-style^="cosmicpanda"] {
---bt-channel-page-header-bg: #202020 url(http://s.ytimg.com/yt/img/channels/c3/bg-channel-header-vfl6TeHdT.png) repeat-x;
+--bt-channel-page-header-bg: #202020 url(https://s.ytimg.com/yt/img/channels/c3/bg-channel-header-vfl6TeHdT.png) repeat-x;
 --bt-channel-page-header-radius: 5px 5px 0 0;
 --bt-channel-page-tab-strip-padding: 0;
 --bt-channel-page-tab-strip-bg: -webkit-linear-gradient(bottom,#323232 0,#4f4f4f 70%);

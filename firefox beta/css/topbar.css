@@ -105,7 +105,7 @@ html[logo="shady"]:not([pseudo-static]) {
 --bt-logo-left: 30px;
 }
 html[logo="squished"] {
---bt-logo-bg: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflaJ9wdK.png) 0 -116px;
+--bt-logo-bg: no-repeat url(https://s.ytimg.com/yts/imgbin/www-hitchhiker-vflaJ9wdK.png) 0 -116px;
 --bt-logo-bg-size: auto;
 --bt-logo-width: 72px;
 --bt-logo-height: 30px;
@@ -457,7 +457,7 @@ Redir: See Material Search Bar
 --bt-search-btn-icon-display: inline-flex;
 --bt-search-btn-icon-margin-top: -3px;
 --bt-search-btn-icon-color: var(--yt-spec-text-primary);
---bt-search-btn-icon-bg: no-repeat url(http://s.ytimg.com/yts/imgbin/www-refresh-vflrvDBWB.png) -269px -70px;
+--bt-search-btn-icon-bg: no-repeat url(https://s.ytimg.com/yts/imgbin/www-refresh-vflrvDBWB.png) -269px -70px;
 --bt-search-btn-icon-width: 14px;
 --bt-search-btn-icon-height: 14px;
 --bt-search-btn-icon-opacity: 0.6;
