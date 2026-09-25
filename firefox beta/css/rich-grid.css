@@ -693,3 +693,19 @@ html[homepage="rich-grid"] ytd-browse[page-subtype="home"] #contents.ytd-rich-gr
 html:not([homepage]) ytd-browse[page-subtype="home"] #contents.ytd-rich-grid-renderer {
   margin-top: 60px;
 }
+/* CustomTube-Forever: YouTube moved the grid metadata into yt-lockup-view-model, where the
+   channel name, view count and upload date all sit inline in one row, so long channel names
+   push the count and date out of view. Put the channel name (the only metadata span that
+   contains a link) back on its own line, above the view count / date. */
+html[grid-styling] ytd-rich-item-renderer .ytContentMetadataViewModelMetadataRow {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center;
+}
+html[grid-styling] ytd-rich-item-renderer .ytContentMetadataViewModelMetadataRow > span:has(a) {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+}
+html[grid-styling] ytd-rich-item-renderer .ytContentMetadataViewModelMetadataRow > span:has(a) + .ytContentMetadataViewModelDelimiter {
+  display: none !important;
+}

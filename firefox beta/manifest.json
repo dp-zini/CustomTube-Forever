@@ -1,6 +1,6 @@
 {
     "name": "CustomTube-Forever",
-    "version": "1.3.2",
+    "version": "1.3.3",
     "description": "Choose your own YouTube layout, and more!",
     "permissions": ["activeTab", "storage"],
     "browser_action": {
